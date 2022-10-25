@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.me-auto a {
+  list-style: none;
+  text-decoration: none;
+  color: silver;
+  margin-right: 10px;
+}
+.me-auto a:hover {
+  color: #777;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main {
+  width: 80%;
+  height: 650px;
+  margin: 20px auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.books {
+  margin: 20px auto;
+  width: 100%;
+  height: auto;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.bookCart {
+  width: 350px;
+  margin: 20px auto;
+  background-color: #7772;
+  border-radius: 15px;
+  padding: 10px;
+}
+.bk {
+
+    display: flex;
+    justify-content: space-between; 
+}
+.cbook{
+    display: grid;
+grid-template-columns: repeat(4, 20px);
+    width: 80px;
+
+}
+.cbook button{
+    border: none;
+    width: 6px;
+    height: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.center{
+    width: 500px;
+    height: auto;
+    margin: 20px auto;
+    background-color: #2225;
+    padding: 10px;
+    border-radius: 15px;
 }
