@@ -44,7 +44,7 @@ function App() {
       <Router>
         <NavbarComp />
         <Routes>
-          <Route index path="/" element={<Home />}></Route>
+  
           <Route
             path="/books"
             element={<Main books={books} onAdd={onAdd} />}

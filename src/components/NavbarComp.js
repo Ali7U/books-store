@@ -13,7 +13,7 @@ function NavbarComp() {
   return (
     <Navbar bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="/">{<GiBookshelf />}</Navbar.Brand>
+        <Navbar.Brand href="/books">{<GiBookshelf />}</Navbar.Brand>
         <Nav className="me-auto">
           
           <Link to="/books">Books</Link>
