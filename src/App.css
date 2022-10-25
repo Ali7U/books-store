@@ -54,7 +54,7 @@ grid-template-columns: repeat(4, 20px);
 }
 
 .center{
-    width: 500px;
+    width: 350px;
     height: auto;
     margin: 20px auto;
     background-color: #2225;
